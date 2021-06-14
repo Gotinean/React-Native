@@ -3,8 +3,8 @@ import React from 'react';
 const Weather = props => (
     <div>
         {props.city &&
-            <div>
-                <p>Местоположение: {props.city}, {props.counrty}</p>
+            <div className="grid-item3">
+                <p>Местоположение: {props.city}</p>
                 <p>Температура: {props.temp}</p>
                 <p>Давление: {props.pressure}</p>
                 <p>Закат: {props.sunset}</p>

@@ -27,8 +27,8 @@ const ToDoApp = () => {
     }, [todos, status]);
 
     return (
-        <div className="App">
-            <h1>My TODO List</h1>
+        <div className="grid-item3">
+            <h1 className="grid">My TODO List</h1>
             <Form
                 inputText={inputText}
                 todos={todos}

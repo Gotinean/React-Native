@@ -2,7 +2,7 @@ import React from 'react';
 
 const Info = () => {
     return (
-        <div>
+        <div className="grid-item3">
             <h2>Погодное приложение</h2>
             <p>Узнайте погоду прямо сейчас</p>
         </div>

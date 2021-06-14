@@ -1,4 +1,4 @@
-* {
+/** {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -96,7 +96,7 @@ form button:hover {
   opacity: 0.55;
 }
 
-/*CUSTOM SELECTOR */
+/*CUSTOM SELECTOR 
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -108,7 +108,7 @@ select {
   background-image: none;
 }
 
-/* Custom Select */
+/* Custom Select 
 .select {
   margin: 1rem;
   position: relative;
@@ -120,7 +120,7 @@ select {
   cursor: pointer;
   width: 12rem;
 }
-/* Arrow */
+/* Arrow 
 .select::after {
   content: "\25BC";
   position: absolute;
@@ -131,3 +131,4 @@ select {
   cursor: pointer;
   pointer-events: none;
 }
+*/

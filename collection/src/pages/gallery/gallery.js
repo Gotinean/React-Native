@@ -38,8 +38,8 @@ const Gallery = () => {
     return (
         <div className='gallery'>
             {photos.map(photo =>
-                <div className="photo" key={photo.id}>
-                    <div className="title">{photo.id}. {photo.title}</div>
+                <div className="gallery" key={photo.id}>
+                    <div className="gallery">{photo.id}. {photo.title}</div>
                     <img src={photo.thumbnailUrl} alt="" />
                 </div>
             )}

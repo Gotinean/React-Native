@@ -10,10 +10,12 @@ import Gallery from './pages/gallery/gallery';
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='default'>
-        <h3>Welcome to my list with Apps</h3>
-        <h4>Choose the Applications</h4>
+      <div className='grid'>
+      <div className="grid-head">
+        <h3 className="grid-items">Welcome to my list with Apps</h3>
+        <h4 className="grid-items">Choose the Applications</h4>
         <Applications />
+        </div>
         <div>
           <Route path="/aboutMe" component={AboutMe} />
           <Route path="/toDoApp" component={ToDoApp} />
