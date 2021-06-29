@@ -6,7 +6,7 @@ import ToDoList from '../../components/ToDoList';
 const Main = () => {
   return <View>
       <Text>
-          <ToDoList />
+          'text'
       </Text>
   </View>;
 };
