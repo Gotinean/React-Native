@@ -1,9 +1,9 @@
 /* eslint-disable prettier/prettier */
 import React, { useState } from 'react';
 import { View, Text, ScrollView } from 'react-native';
-import CircleButton from './Components/CircleButton';
+import CircleButton from '../ToDo/Components/CircleButton';
 import styles from './styles';
-import TodoBlock from './Components/TodoBlock';
+import TodoBlock from '../ToDo/Components/TodoBlock';
 import { todoProps } from './Constance/todo';
 import { categoriesData, initialTodoData } from './Constance/todoStructure';
 
