@@ -18,20 +18,17 @@ const Tabs = () => {
                 showLabel: false,
                 style: {
                     position: 'absolute',
-                    bottom: 5,
-                    left: 20,
-                    right: 20,
+                    
                     elevation: 0,
                     backgroundColor: 'white',
-                    borderRadius: 15,
-                    height: 60,
+                    
                     ...styles.shadow
                 }
             }}
         >
             <Tab.Screen name="Home" component={Main} options={{
                 tabBarIcon: ({ focused }) => (
-                    <View style={{ alignItems: 'center', justifyContent: 'center', top: 10 }}>
+                    <View style={{ alignItems: 'center', justifyContent: 'center',  }}>
                         <Image
                             source={require('../../asserts/icons/bulb.png')}
                             resizeMode='contain'
@@ -47,7 +44,7 @@ const Tabs = () => {
             }} />
             <Tab.Screen name='Counter' component={Counter} options={{
                 tabBarIcon: ({ focused }) => (
-                    <View style={{ alignItems: 'center', justifyContent: 'center', top: 10 }}>
+                    <View style={{ alignItems: 'center', justifyContent: 'center'}}>
                         <Image
                             source={require('../../asserts/icons/document.png')}
                             resizeMode='contain'
@@ -63,7 +60,7 @@ const Tabs = () => {
             }} />
             <Tab.Screen name='Gallery' component={Gallery} options={{
                 tabBarIcon: ({ focused }) => (
-                    <View style={{ alignItems: 'center', justifyContent: 'center', top: 10 }}>
+                    <View style={{ alignItems: 'center', justifyContent: 'center'}}>
                         <Image
                             source={require('../../asserts/icons/idea.png')}
                             resizeMode='contain'
@@ -79,7 +76,7 @@ const Tabs = () => {
             }} />
             <Tab.Screen name='Notepad' component={Notepad} options={{
                 tabBarIcon: ({ focused }) => (
-                    <View style={{ alignItems: 'center', justifyContent: 'center', top: 10 }}>
+                    <View style={{ alignItems: 'center', justifyContent: 'center'}}>
                         <Image
                             source={require('../../asserts/icons/laptop.png')}
                             resizeMode='contain'
@@ -95,7 +92,7 @@ const Tabs = () => {
             }} />
             <Tab.Screen name='ToDo' component={ToDo} options={{
                 tabBarIcon: ({ focused }) => (
-                    <View style={{ alignItems: 'center', justifyContent: 'center', top: 10 }}>
+                    <View style={{ alignItems: 'center', justifyContent: 'center'}}>
                         <Image
                             source={require('../../asserts/icons/pencil.png')}
                             resizeMode='contain'

@@ -16,6 +16,8 @@ const Counter = () => {
                 title='-'
                 onPress={() => {setState(state - 1)}}
              />
+             </View>
+             <View style={styles.fixToText}>
              <Button
                 title='+'
                 onPress={() => {setState(state + 1)}}

@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignContent: 'center',
-        marginHorizontal: 16,
+        backgroundColor: '#B8E1E3'
     }
 });
 
